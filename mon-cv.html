@@ -1,0 +1,72 @@
+<!--Précise le langage informatique du document-->
+<!DOCTYPE html>
+<!--Précise la langue du document-->
+ <html lang="fr">
+
+
+   <!--La balise head n'est pas affichée par le navigateur.
+   Elle fournit des informations générales (métadonnées) sur le document, incluant son titre-->
+   <head>
+      <!--Jeu de caractères du document-->
+      <meta charset="UTF-8">
+      <!--Le viewport du navigateur est la zone de la fenêtre dans laquelle le contenu web peut être vu.
+      Si cette zone n'a pas la même taille que la page rendue, le navigateur fournit des barres de défilement.-->
+      <meta name="viewport" content="height=device-height, initial-scale=1.0">
+      <!--Améliore le référencement-->
+      <meta name="description" content="CV de Bruno Coulet - Développeur web avec expérience, éducation, compétences, et plus.">
+      <!--titre du document-->
+      <title>CV de Bruno Coulet</title>
+   </head>
+
+
+        <!--Ci dessous le "body" donc le contenu du cv afficher par le navigateur -->
+   <body>
+      <main>
+         <h1 itemprop="name">Coulet Bruno</h1>
+         <h2 aria-label="Informations personnelles pour me contacter" tabindex="1">Informations personnelles</h2>
+         <a href="mailto:couletbruno@gmail.com" itemprop="email">Envoyez-moi un mail !</a><br>
+         <p itemprop="streetAddress">312 bd Chave 13005 Marseille</p>
+         <p itemprop="telephone">tél: 06 82 16 72 06<br>
+         <h2>Objectif professionnel</h2>
+         <p><strong>Devenir développeur Web & Web mobile</strong><br>Maîtrise de JAVASCRIPT, REACT<br>Maîtrise de PHP, SYMPHONY<br>Spécialisation en fonction des besoin de l'entreprise.</p>
+         <h2 aria-label="Liste de mes expérience professionnelles" tabindex="2">Expérience professionnelle</h2>
+            <ul>
+               <li><strong>Technicien cordiste</strong><br>Cordiste intérimaire en bâtiment et industrie chez ATX travaux sur cordes.<br>
+               2016-2023</li>
+               <li><strong>Gérant, webmaster</strong><br>Fondateur, directeur artistique, directeur produits et webmaster chez Zanza-creation.com<br>
+               2020-2023</li>
+            </ul>
+         <h2>Etudes / Formations</h2>
+         <ul>
+            <li><strong>Webmaster autodidacte</strong><br>Openclassroom, sololearn, bibliothèque... <br>
+               2020-2023
+            </li>
+            <li><strong>Bachelor IT - bac+3</strong><br>La Plateforme Marseille<br>
+               2023-2026
+            </li>
+         </ul>
+      </main>
+      <aside>
+         <h2 aria-label="Liste de mes compétences" tabindex="3" >Mes compétences</h2>
+         <!-- Liste avec les logos des différents hardskills que vous
+         possédez, par exemple : HTML, CSS, BASH, Linux ... Ainsi que leurs noms.-->
+         <ul>
+            <li><img src="images/logo-html.png" height="50" alt="logo HTML">HTML</li>
+            <li><img src="images/logo-css.png"  height="50" alt="logo CSS3">CSS 3</li>
+            <li><img src="images/logo-php.png"  height="50" alt="logo PHP">PHP</li>
+            <li><img src="images/logo-bash.png"  height="50" alt="logo BASH">BASH</li>
+            <li><img src="images/logo-linux.png"  height="50" alt="logo LINUX">LINUX</li>
+         </ul>
+      </aside>
+      <footer tabindex="4">
+         <a href="https://github.com/bruno-coulet" aria-label="Liens vers mon github"> Github</a>
+         <a href="CV-bruno-coulet.pdf" aria-label="Liens vers mon cv en .pdf"> Mon cv en .pdf</a>
+         <a href="https://www.linkedin.com/in/bruno-coulet-98111019/">Profil LinkedIn</a>
+
+      </footer>
+         
+
+   </body>
+   
+
+ </html>
